@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="mystylesheet.css">
+
+    </head>
+    <body>
+        <h1>Home Learning 4 Interactive Form</h1>
+        <form id="myform" class="form">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"
+            <div>
+                
+                <button onclick="alert('Form has been submitted!')">Sumbit</button>
+                
+            </div>
+        </form>
+
+        <script>
+            const myform = document.getElementById("myform");
+
+            myform.addEventListener("submit", (e) => {
+                e.preventDefault();
+            });
+            document.getElementById("myform").reset(); // RESET FORM
+
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+
+}
+
+/* labels */
+label{
+    display: block;
+    margin-top: 1em;
+}
+.checks label {
+    margin-top: 0;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+/* Inputs and textarea */
+input {
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+input[type="username"], input[type="text"] {
+    width: 15em;
+}
+
